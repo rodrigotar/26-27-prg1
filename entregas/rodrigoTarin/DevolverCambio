@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class DevolverCambio {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("¿Cuantos euros debe pagar?");
+        int importeAPagar = scanner.nextInt();
+
+        System.out.println("¿Con cuantos euros paga?");
+        int importePagado = scanner.nextInt();
+
+        scanner.close();
+    }
+}
